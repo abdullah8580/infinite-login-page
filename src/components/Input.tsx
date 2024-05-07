@@ -9,8 +9,6 @@ type PropsType = {
 };
 
 function Input({ placeholder, type, fieldName, value, onChange }: PropsType) {
-  console.log(placeholder, type, fieldName, value, onChange);
-
   return (
     <div>
       <label className="text-gray-700 font-bold text-lg">{fieldName}:</label>
