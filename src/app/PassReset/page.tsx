@@ -1,12 +1,12 @@
 import React from "react";
-import Form from "@/components/Form";
+import PasswordReset from "../../components/PassReset";
 
-function page() {
+function PassReset() {
   return (
     <div className="h-screen flex justify-center items-center bg-gradient-to-bl from-slate-600 via-green-200 to-pink-400">
-      <Form />
+      <PasswordReset />
     </div>
   );
 }
 
-export default page;
+export default PassReset;
